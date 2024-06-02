@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-Date = input('ENter date - dd/mm/yyyy')
+Date = input('Enter date - dd-mm-yyyy')
 face_detect = cv2.CascadeClassifier("C:/cars info/haarcascade_frontalface_default.xml")
 cam = cv2.VideoCapture(0)
 rec = cv2.face.LBPHFaceRecognizer_create()
